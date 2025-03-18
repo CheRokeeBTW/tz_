@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class = "nav__bar">
+    <div class = nav__bar_first>
+        <div class = nav__bar_content>
+        <p>Поездки</p>
+        </div>
+    </div>
+    <div class = "nav__bar_second">
+        <div class="nav__bar_worker">
+        <a>Заболоцкий К.О</a>
+        <img src = "images/Vector.png">
+    </div>
+    </div>
+   </div>
+   <div class = "menu_bar">
+    <div class = "menu_bar_upper">
+        <p>Мои поездки</p>
+        <button type = "button" id = "menu_btn">
+            <div class = "button_img">
+            <img src = "images/Vector (1).png">
+            </div>
+            <span>Оформить поездку</span></button>
+    </div>
+    <div class = "menu_bar_filters">
+        <div class = "menu_bar_filters_dates">
+            <div class = "filters_dates">
+                <div class = "filters_dates_from">
+                    <p>Период с:</p>
+                    <button id = "btn_from">
+                        <span>22.02.2024</span>
+                        <img src = "images/X close.png">
+                        <img src = "images/Calendar.png">
+                    </button>
+                </div>
+                <div class = "filters_dates_to">
+                    <p>по</p>
+                    <button id = "btn_to">
+                        <span>Выбрать...</span>
+                        <img src="images/Calendar.png">
+                    </button>
+                </div>
+                <div>
+                    <button id = "btn_search">
+                        <span>Поиск...</span>
+                        <img src = "images/Search.png">
+                    </button>
+                </div>
+                <div class = "filters_reset">
+                    <img src ="images/Close.png">
+                    <p>Сбросить все</p>
+                </div>
+            </div>
+        </div>
+        <label class = "menu_bar_filters_text">
+            <input type="checkbox" class="custom-checkbox">
+            <p>Показать архивные поездки</p>
+        </div>
+        <div class = "spinner">
+            <div class = "custom_line">
+            </div>
+        </div>
+    </div>
+    <div class = "cards">
+        <div class = "cards_content">
+            <div class = "cards_filler">
+                <div class = "filler_ride">
+                    <div class = "filler_ride_content">
+                        <div class = "filler_ride_text">
+                            <div class = "filler_ride_date">
+                                <p>№ поездки</p>
+                                <div class = "date_number">
+                                <p1>000115</p1>
+                                </div>
+                            </div>
+                        <div class = "filler_ride_date_cal">
+                            <p>Дата поездки</p>
+                                <div class = "date_cal">
+                                <p1>22.02.2024 - 27.02.2024</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total">
+                            <p>Сумма, план</p>
+                            <div class = "total_sum">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total_fact">
+                            <p>Сумма, факт</p>
+                            <div class = "total_sum_fact">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_city">
+                            <p>Город</p>
+                            <div class = "ride_city">
+                                <p1>Москва, Ярославль, Ижевск, Владимир</p1>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class = "status">
+                        <p>Статус</p>
+                        <p1>Документы</p1>
+                    </div>
+                </div>
+                <div class = "filler_ride">
+                    <div class = "filler_ride_content">
+                        <div class = "filler_ride_text">
+                            <div class = "filler_ride_date">
+                                <p>№ поездки</p>
+                                <div class = "date_number">
+                                <p1>000117</p1>
+                                </div>
+                            </div>
+                        <div class = "filler_ride_date_cal">
+                            <p>Дата поездки</p>
+                                <div class = "date_cal">
+                                <p1>22.02.2024 - 27.02.2024</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total">
+                            <p>Сумма, план</p>
+                            <div class = "total_sum">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total_fact">
+                            <p>Сумма, факт</p>
+                            <div class = "total_sum_fact">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_city">
+                            <p>Город</p>
+                            <div class = "ride_city">
+                                <p1>Москва</p1>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class = "status">
+                        <p>Статус</p>
+                        <p1>Документы</p1>
+                    </div>
+                </div>
+                <div class = "filler_ride">
+                    <div class = "filler_ride_content">
+                        <div class = "filler_ride_text">
+                            <div class = "filler_ride_date">
+                                <p>№ поездки</p>
+                                <div class = "date_number">
+                                <p1>000074</p1>
+                                </div>
+                            </div>
+                        <div class = "filler_ride_date_cal">
+                            <p>Дата поездки</p>
+                                <div class = "date_cal">
+                                <p1>22.02.2024 - 27.02.2024</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total">
+                            <p>Сумма, план</p>
+                            <div class = "total_sum">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total_fact">
+                            <p>Сумма, факт</p>
+                            <div class = "total_sum_fact">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_city">
+                            <p>Город</p>
+                            <div class = "ride_city">
+                                <p1>Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск, Волго...</p1>
+                                <button id = "icon" src = "images/Vector (2).png"></button>
+                                <div class = "info">
+                                <div class ="tooltip-text">
+                                    Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск, Волгоград, Саратов
+                            </div>
+                        </div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class = "status">
+                        <p>Статус</p>
+                        <p1>Документы</p1>
+                    </div>
+                </div>
+                <div class = "filler_ride">
+                    <div class = "filler_ride_content">
+                        <div class = "filler_ride_text">
+                            <div class = "filler_ride_date">
+                                <p>№ поездки</p>
+                                <div class = "date_number">
+                                <p1>000115</p1>
+                                </div>
+                            </div>
+                        <div class = "filler_ride_date_cal">
+                            <p>Дата поездки</p>
+                                <div class = "date_cal">
+                                <p1>22.02.2024 - 27.02.2024</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total">
+                            <p>Сумма, план</p>
+                            <div class = "total_sum">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total_fact">
+                            <p>Сумма, факт</p>
+                            <div class = "total_sum_fact">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_city">
+                            <p>Город</p>
+                            <div class = "ride_city">
+                                <p1>Москва, Ярославль, Ижевск, Владимир</p1>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class = "status">
+                        <p>Статус</p>
+                        <p1>Документы</p1>
+                    </div>
+                </div>
+                <div class = "filler_ride">
+                    <div class = "filler_ride_content">
+                        <div class = "filler_ride_text">
+                            <div class = "filler_ride_date">
+                                <p>№ поездки</p>
+                                <div class = "date_number">
+                                <p1>000211</p1>
+                                </div>
+                            </div>
+                        <div class = "filler_ride_date_cal">
+                            <p>Дата поездки</p>
+                                <div class = "date_cal">
+                                <p1>22.02.2024 - 27.02.2024</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total">
+                            <p>Сумма, план</p>
+                            <div class = "total_sum">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total_fact">
+                            <p>Сумма, факт</p>
+                            <div class = "total_sum_fact">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_city">
+                            <p>Город</p>
+                            <div class = "ride_city">
+                                <p1>Москва, Ярославль, Ижевск, Владимир</p1>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class = "status">
+                        <p>Статус</p>
+                        <p1>Документы</p1>
+                    </div>
+                </div>
+                <div class = "filler_ride">
+                    <div class = "filler_ride_content">
+                        <div class = "filler_ride_text">
+                            <div class = "filler_ride_date">
+                                <p>№ поездки</p>
+                                <div class = "date_number">
+                                <p1>000118</p1>
+                                </div>
+                            </div>
+                        <div class = "filler_ride_date_cal">
+                            <p>Дата поездки</p>
+                                <div class = "date_cal">
+                                <p1>22.02.2024 - 27.02.2024</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total">
+                            <p>Сумма, план</p>
+                            <div class = "total_sum">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total_fact">
+                            <p>Сумма, факт</p>
+                            <div class = "total_sum_fact">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_city">
+                            <p>Город</p>
+                            <div class = "ride_city">
+                                <p1>Москва, Ярославль, Ижевск, Владимир</p1>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class = "status">
+                        <p>Статус</p>
+                        <p1>Документы</p1>
+                    </div>
+                </div>
+                <div class = "filler_ride">
+                    <div class = "filler_ride_content">
+                        <div class = "filler_ride_text">
+                            <div class = "filler_ride_date">
+                                <p>№ поездки</p>
+                                <div class = "date_number">
+                                <p1>000119</p1>
+                                </div>
+                            </div>
+                        <div class = "filler_ride_date_cal">
+                            <p>Дата поездки</p>
+                                <div class = "date_cal">
+                                <p1>22.02.2024 - 27.02.2024</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total">
+                            <p>Сумма, план</p>
+                            <div class = "total_sum">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total_fact">
+                            <p>Сумма, факт</p>
+                            <div class = "total_sum_fact">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_city">
+                            <p>Город</p>
+                            <div class = "ride_city">
+                                <p1>Москва, Ярославль, Ижевск, Владимир</p1>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class = "status">
+                        <p>Статус</p>
+                        <p1>Документы</p1>
+                    </div>
+                </div>
+                <div class = "filler_ride">
+                    <div class = "filler_ride_content">
+                        <div class = "filler_ride_text">
+                            <div class = "filler_ride_date">
+                                <p>№ поездки</p>
+                                <div class = "date_number">
+                                <p1>000120</p1>
+                                </div>
+                            </div>
+                        <div class = "filler_ride_date_cal">
+                            <p>Дата поездки</p>
+                                <div class = "date_cal">
+                                <p1>22.02.2024 - 27.02.2024</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total">
+                            <p>Сумма, план</p>
+                            <div class = "total_sum">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total_fact">
+                            <p>Сумма, факт</p>
+                            <div class = "total_sum_fact">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_city">
+                            <p>Город</p>
+                            <div class = "ride_city">
+                                <p1>Москва, Ярославль, Ижевск, Владимир</p1>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class = "status">
+                        <p>Статус</p>
+                        <p1>Документы</p1>
+                    </div>
+                </div>
+                <div class = "filler_ride">
+                    <div class = "filler_ride_content">
+                        <div class = "filler_ride_text">
+                            <div class = "filler_ride_date">
+                                <p>№ поездки</p>
+                                <div class = "date_number">
+                                <p1>000133</p1>
+                                </div>
+                            </div>
+                        <div class = "filler_ride_date_cal">
+                            <p>Дата поездки</p>
+                                <div class = "date_cal">
+                                <p1>22.02.2024 - 27.02.2024</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total">
+                            <p>Сумма, план</p>
+                            <div class = "total_sum">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_total_fact">
+                            <p>Сумма, факт</p>
+                            <div class = "total_sum_fact">
+                                <p1>29 400,00</p1>
+                                </div>
+                        </div>
+                        <div class = "filler_ride_city">
+                            <p>Город</p>
+                            <div class = "ride_city">
+                                <p1>Москва, Ярославль, Ижевск, Владимир</p1>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class = "status">
+                        <p>Статус</p>
+                        <p1>Документы</p1>
+                    </div>
+                </div>
+            </div>
+            <div class = "cards_scroller">
+                <div class = "custom_scroller">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
